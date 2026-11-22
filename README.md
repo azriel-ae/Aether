@@ -1,6 +1,6 @@
 # Aether 
 
-Android-native Kotlin application plus a usable Next.js web workspace for Gemini chat and user-selected image analysis.
+Android-native Kotlin application plus a usable Next.js web workspace 
 
 ## Vercel deployment
 
