@@ -4,17 +4,12 @@ Android-native Kotlin application plus a usable Next.js web workspace
 
 ## Vercel deployment
 
-This repository is configured as **one Next.js project at the repository root**. The deployment entry points are the root `package.json` and root `app/` directory. There is no nested backend directory to select.
-
 1. Push the contents of this folder to the root of your GitHub repository (not inside an additional wrapper folder).
 2. In Vercel, import or open the project connected to that repository.
 3. Set **Root Directory** to the repository root (`./`) or leave it at the default root setting. Do not select a subfolder.
 4. Framework Preset: Next.js (auto-detect).
 5. Leave Install Command, Build Command, and Output Directory at their defaults.
-6. Add exactly one Vercel Environment Variable:
-
-   - `GEMINI_API_KEY` — your Google AI Studio API key.
-
+6. Add exactly one Vercel Environment Variable
 7. Enable it for Production, Preview, and Development as appropriate, save, then redeploy.
 
 The Gemini model is fixed in source as `gemini-3.8-flash`. No `GEMINI_MODEL`, `APP_API_TOKEN`, or other Vercel environment variable is required.
