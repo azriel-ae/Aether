@@ -46,7 +46,7 @@ The Android Scan Screen action (launched from the floating bubble or app home sc
 
 This is not a verified production release until the Next.js build, Vercel deployment, live Gemini requests, Android build, and real-device tests pass.
 
-## Security update
+
 
 - Next.js pinned to `15.5.29` (patched 15.5 release).
 - React and React DOM pinned to `19.1.7`.
