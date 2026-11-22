@@ -2,7 +2,7 @@
 
 Android-native Kotlin application plus a usable Next.js web workspace for Gemini chat and user-selected image analysis.
 
-## Vercel deployment (repository root)
+## Vercel deployment
 
 This repository is configured as **one Next.js project at the repository root**. The deployment entry points are the root `package.json` and root `app/` directory. There is no nested backend directory to select.
 
