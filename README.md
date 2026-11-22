@@ -62,5 +62,3 @@ This is not a verified production release until the Next.js build, Vercel deploy
 
 
 
-## Visual theme update
-The web workspace uses a restrained warm-neutral palette: charcoal with a subtle olive/sage accent and warm off-white text. Purple/violet accents and decorative gradients have been removed in favor of a quieter, product-focused interface.
