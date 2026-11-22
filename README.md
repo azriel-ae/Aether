@@ -58,7 +58,7 @@ This is not a verified production release until the Next.js build, Vercel deploy
 - Vercel project Root Directory: `./`.
 - Required Vercel Environment Variable: `GEMINI_API_KEY` only.
 - After replacing repository files, commit and push the changes, then trigger a fresh deployment.
-- If a lockfile exists in your Git repository, regenerate it using `npm install` from this project root and commit the updated lockfile. This archive does not include a generated lockfile.
+- If a lockfile exists in your Git repository, regenerate it using `npm install` from this project root and commit the updated lockfile
 
 
 
