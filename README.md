@@ -38,18 +38,3 @@ npm run build
 npm run dev
 ```
 
-## Security and limitations
-
-The simplified endpoints are publicly callable because the requested Vercel configuration uses only one environment variable and no user authentication. Input validation and payload limits do not replace authentication, durable rate limiting, quotas, or abuse monitoring. Keep the prototype private during testing and add those protections before public distribution.
-
-The Android Scan Screen action (launched from the floating bubble or app home screen) can capture a user-approved frame from the previously viewed website or app using Android MediaProjection. After the system consent prompt is approved, Aether backgrounds its activity, captures one frame, and opens a rectangle selector from the capture notification. The user must press Analyze before the selected crop is uploaded. A visible Android notification is used. Protected screens (`FLAG_SECURE`) remain blocked; the app does not bypass screen protections or conceal capture activity.
-
-This is not a verified production release until the Next.js build, Vercel deployment, live Gemini requests, Android build, and real-device tests pass.
-
-
-
-- Next.js pinned to `15.5.29` (patched 15.5 release).
-- React and React DOM pinned to `19.1.7`.
-- Vercel project Root Directory: `./`.
-- Required Vercel Environment Variable: `GEMINI_API_KEY` only.
-- After replacing repository files, commit and push the changes, then trigger a fresh deployment.
